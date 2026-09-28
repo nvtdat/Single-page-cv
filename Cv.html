@@ -3,176 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Single Page CV</title>
+    <title>Nguyen Van Tien Dat - Portfolio</title>
 </head>
-<body style="background-color: white; 
-            width: 900px; 
-            border-radius: 20;
-            margin: 40px auto;">
-    <h1>Nguyen Van Tien Dat</h1>
-    <h2>Frontend Engineer Internship</h2>
+<body style="background-color: white; max-width: 900px; margin: 40px auto; padding: 0 16px; font-family: Arial, sans-serif; line-height: 1.6;">
+
+    <!--HEADER-->
+    <h1 style="margin-bottom: 0;">Nguyen Van Tien Dat</h1>
+    <h2 style="margin-top: 5px; color: #2f5bea;">Frontend Engineer Intern</h2>
     <div>
         <div style="display: flex; flex-direction: row;">
-            <div style="font-weight: bold;">Birthday:&nbsp;</div>
-            <span>30/05/2006</span>
-        </div>
-        <div style="display: flex; flex-direction: row;"> 
-            <div style="font-weight: bold;">Sex:&nbsp; </div> 
-            <span>Male</span>
-        </div>
-        <div style="display: flex; flex-direction: row;"> 
-            <div style="font-weight: bold;">Gmail:&nbsp; </div> 
-            <span>nvtdat30052006@gmail.com</span>
+            <div style="font-weight: bold;">Gmail:&nbsp;</div>
+            <a href="mailto:nvtdat30052006@gmail.com">nvtdat30052006@gmail.com</a>
         </div>
         <div style="display: flex; flex-direction: row;">
-            <div style="font-weight: bold;">Phone number:&nbsp; </div>
-            <span> 0813902082 </span>
+            <div style="font-weight: bold;">Phone number:&nbsp;</div>
+            <a href="tel:0813902082">0813902082</a>
         </div>
         <div style="display: flex; flex-direction: row;">
-            <div style="font-weight: bold;">LinkedIn:&nbsp; </div>
-            <span></span>
+            <div style="font-weight: bold;">GitHub:&nbsp;</div>
+            <a href="https://github.com/nvtdat">github.com/nvtdat</a>
         </div>
     </div>
+
+    <!--MENU-->
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 16px; margin-top: 20px; padding: 10px 0; border-top: 1px solid black; border-bottom: 1px solid black;">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#activity">Activity</a>
+    </div>
+
     <main>
-        <!--CAREER OBJECTIVE-->
-        <div>
-            <h3 style="font-weight: bold;">CAREER OBJECTIVE</h3>
-            <div style="border-top: 1px solid black "></div>
+        <!--ABOUT-->
+        <div id="about">
+            <h3 style="font-weight: bold;">ABOUT ME</h3>
+            <div style="border-top: 1px solid black;"></div>
             <p>
-                Third-year Computer Science/Computer Engineering student at VNU-HCM, aspiring to become a Frontend/Junior Developer with
-            hands-on experience in full-stack web development using ReactJS and NodeJS. Oriented toward applying a solid foundation in
-            algorithms and computer architecture to build high-performance, scalable applications. Committed to continuous technical
-            growth, currently pursuing international professional certifications, including Google Certified Educator/Professional pathways.
+                I'm a third-year Computer Science student at VNU-HCM, aiming to become a Frontend or Junior Developer.
+                I build full-stack web apps with ReactJS and NodeJS.
+            </p>
+            <p>
+                I apply a solid foundation in algorithms and computer architecture to make fast, scalable applications.
+                I keep learning through international certifications, including Google Certified Educator and Professional pathways.
             </p>
         </div>
-        <div>
-            <h3 style="font-weight: bold">EDUCATION</h3>
-            <div style="border-top: 1px solid black"></div>
-            <div style="display: flex; flex-direction:row; justify-content: space-between; margin-top: 10px;">
-                <span>2024-2028</span>
-                <div style=" display: flex; flex-direction: column;">
-                    <span style="font-weight: bold;">VNU-HCM | HCMUS</span>
-                    <span>Informational Technology</span>
-                    <span>Software Engineer Major</span>
+
+        <!--PROJECTS-->
+        <div id="projects">
+            <h3 style="font-weight: bold;">PROJECTS</h3>
+            <div style="border-top: 1px solid black;"></div>
+            <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20px; margin-top: 10px;">
+                <div style="flex: 1; min-width: 260px; border: 1px solid black; border-radius: 10px; padding: 16px;">
+                    <div style="font-weight: bold; font-size: 20px;">MazeSolver</div>
+                    <div style="color: gray;">2025-2026 | UI Design / Frontend Developer</div>
+                    <p>
+                        An interactive desktop app in Python (Pygame) that visualizes classic AI search algorithms
+                        solving mazes in real time.
+                    </p>
+                    <a href="https://github.com/nvtdat/AI_Project.git">View on GitHub</a>
+                </div>
+                <div style="flex: 1; min-width: 260px; border: 1px solid black; border-radius: 10px; padding: 16px;">
+                    <div style="font-weight: bold; font-size: 20px;">Weather App</div>
+                    <div style="color: gray;">2025-2026 | Full-stack Developer</div>
+                    <p>
+                        A responsive web app with real-time weather forecasts and updates for Ho Chi Minh City
+                        and other regions in Vietnam.
+                    </p>
+                    <a href="https://github.com/nvtdat/Weather_app.git">View on GitHub</a>
                 </div>
             </div>
         </div>
 
-        <!--ACTIVITY-->
-        <div>
-            <h3 style="font-weight: bold;">ACTIVITY</h3>
-            <div style="border-top: 1px solid black"></div>
-            <div style="display: flex; flex-direction:row; justify-content: space-between; margin-top: 10px;">
-                <span>2024-2025</span>
-                <div style=" display: flex; flex-direction: column;">
-                    <span style="font-weight: bold;">Green Volunteer Club</span>
-                    <span>Volunteer</span>
-                    <ul>
-                        <li>Participated in waste collection and segregation campaigns in public areas, raising environmental
-                            awareness among local residents.
-                        </li>
-                        <li>
-                            Assisted in organizing fundraising events and distributing essential supplies to underprivileged
-                            families, ensuring smooth and efficient operations.                            
-                        </li>
-                    </ul>
+        <!--SKILLS-->
+        <div id="skills">
+            <h3 style="font-weight: bold;">SKILLS</h3>
+            <div style="border-top: 1px solid black;"></div>
+            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px; gap: 16px;">
+                <span style="font-weight: bold;">Programming Language</span>
+                <span style="text-align: right;">C/C++, Python, JavaScript (React), C# Basic, SQL, HTML/CSS</span>
+            </div>
+            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px; gap: 16px;">
+                <span style="font-weight: bold;">Programming Framework</span>
+                <span style="text-align: right;">React Native, Node.js</span>
+            </div>
+            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px; gap: 16px;">
+                <span style="font-weight: bold;">Version Control</span>
+                <span style="text-align: right;">Git / GitHub</span>
+            </div>
+            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px; gap: 16px;">
+                <span style="font-weight: bold;">Project Tools</span>
+                <span style="text-align: right;">Jira / Slack</span>
+            </div>
+        </div>
+
+        <!--EDUCATION-->
+        <div id="education">
+            <h3 style="font-weight: bold;">EDUCATION</h3>
+            <div style="border-top: 1px solid black;"></div>
+            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px; gap: 16px;">
+                <span>2024-2028</span>
+                <div style="display: flex; flex-direction: column; text-align: right;">
+                    <span style="font-weight: bold;">VNU-HCM | HCMUS</span>
+                    <span>Information Technology</span>
+                    <span>Software Engineering Major</span>
                 </div>
             </div>
         </div>
 
         <!--CERTIFICATES-->
-        <div>
+        <div id="certificates">
             <h3 style="font-weight: bold;">CERTIFICATES</h3>
-            <div style="border-top: 1px solid black"></div>
-            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px">
-                <span> 2024</span>
-                <span> IELTS 6.0 </span>
-                
+            <div style="border-top: 1px solid black;"></div>
+            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px;">
+                <span>2024</span>
+                <span>IELTS 6.0</span>
             </div>
-            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px">
-                <span> 2025</span>
-                <span> Gemini Certified University Student</span>
+            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px;">
+                <span>2025</span>
+                <span>Gemini Certified University Student</span>
             </div>
-            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px">
-                <span> 2025</span>
-                <span> Python (Basic) Certificate</span>
+            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px;">
+                <span>2025</span>
+                <span>Python (Basic) Certificate</span>
             </div>
-            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px">
-                <span> 2026</span>
-                <span> Google UX Design</span>
-            </div>
-        </div>
-
-        <!--SKILLS-->
-        <div>
-            <h3 style="font-weight: bold">SKILLS</h3>
-            <div style="border-top: 1px solid black"></div>
-            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px">
-                <span style="font-weight: bold"> Programming Language</span>
-                <span> C/C++, Python, JavaScript (React), C# Basic, SQL, HTML/CSS </span>
-            </div>
-            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px">
-                <span style="font-weight: bold"> Tools: Git/Github</span>
-                <span>Source Code Management (SCM) </span>
-            </div>
-            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px">
-                <span style="font-weight: bold"> Programming Framework</span>
-                <span> React Native, Node,js </span>
-            </div>
-            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px">
-                <span style="font-weight: bold"> Tools Jira / Slack</span>
-                <span> Project Management & Software Delivery Tools .S </span>
+            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px;">
+                <span>2026</span>
+                <span>Google UX Design</span>
             </div>
         </div>
 
-        <!--PROJECTS-->
-        <div>
-            <h3 style="font-weight: bold;">PROJECTS</h3>
-            <div style="border-top: 1px solid black"></div>
-            <div style="display: flex; flex-direction: row;">
-                <span> 2025-2026</span>
-                <div style="display: flex; flex-direction: column; justify-content: flex-end;">
-                    <span style="font-weight: bold">MazeSolver</span>
-                    <span>UI Desgin/ Frontend Developer </span>
-                    <span>
-                        An interactive desktop application programmed in Python (Pygame) that visualizes classic AI search
-                        algorithms solving mazes in real-time.
-                    </span>
-                    <div>
-                        Github
-                        <a href="https://github.com/nvtdat/AI_Project.git">https://github.com/nvtdat/AI_Project.git</a>
-                    </div>
+        <!--ACTIVITY-->
+        <div id="activity">
+            <h3 style="font-weight: bold;">ACTIVITY</h3>
+            <div style="border-top: 1px solid black;"></div>
+            <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px; gap: 16px;">
+                <span>2024-2025</span>
+                <div style="display: flex; flex-direction: column;">
+                    <span style="font-weight: bold;">Green Volunteer Club</span>
+                    <span>Volunteer</span>
+                    <ul>
+                        <li>Joined waste collection and sorting campaigns in public areas, raising environmental awareness among residents.</li>
+                        <li>Helped organize fundraising events and hand out essential supplies to families in need.</li>
+                    </ul>
                 </div>
-                
-            </div>
-            <div style="display: flex; flex-direction: row; margin-top: 10px">
-                <span> 2025-2026</span>
-                <div style="display: flex; flex-direction: column; justify-content: flex-end;">
-                    <span style="font-weight: bold">Weather App</span>
-                    <span>FullStack Developer </span>
-                    <span>
-                        A responsive web application providing real-time weather forecasts and updates for Ho Chi Minh City
-                        and other domestic regions.
-                    </span>
-                    <div>
-                        Github
-                        <a href="https://github.com/nvtdat/Weather_app.git">https://github.com/nvtdat/AI_Project.git</a>
-                    </div>
-                </div>
-                
             </div>
         </div>
 
         <!--HOBBY-->
         <div>
-            <h3 style="font-weight: bold">HOBBY</h3>
-            <div style="border-top: 1px solid black"></div>
-            <div style="display: flex; flex-direction: column; justify-content: flex-start; margin-top: 10px">
+            <h3 style="font-weight: bold;">HOBBY</h3>
+            <div style="border-top: 1px solid black;"></div>
+            <div style="display: flex; flex-direction: column; margin-top: 10px;">
                 <span>Reading books</span>
                 <span>Traveling</span>
                 <span>Exercising</span>
             </div>
         </div>
     </main>
+
 </body>
 </html>
